@@ -1,0 +1,242 @@
+/* Small devices up to 320px  */
+@media (max-width: 320px) {
+  .menu {
+    height: 60px;
+  }
+
+  .scrollmenu {
+    background: #000;
+  }
+
+  .navbar-toggler {
+    padding: 4px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+  }
+
+  .navbar-nav {
+    background: #000;
+    border-radius: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block !important;
+    text-align: center;
+    padding: 10px 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+
+  .menuBtn {
+    display: none;
+  }
+
+  .uniqueSec {
+    padding: 50px 0px;
+  }
+
+  .uniqueContent p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .nav-tabs {
+    flex-direction: column;
+  }
+
+  .lunchSc {
+    padding: 50px 0px;
+  }
+
+  .menuPrice .menuName {
+    font-size: 14px;
+  }
+
+  .chefSection {
+    padding: 50px 0px;
+  }
+
+  .menuName {
+    justify-content: space-between;
+  }
+
+  .menuName small {
+    display: none;
+  }
+
+  .menuPrice2 {
+    justify-content: space-evenly;
+  }
+
+  .contactPart {
+    padding: 50px 0px;
+  }
+
+  .socialIcon ul {
+    justify-content: center !important;
+  }
+}
+
+/* Small devices min 320.1px to 576px  */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .menu {
+    height: 60px;
+  }
+
+  .scrollmenu {
+    background: #000;
+  }
+
+  .navbar-toggler {
+    padding: 4px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+  }
+
+  .navbar-nav {
+    background: #000;
+    border-radius: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block !important;
+    text-align: center;
+    padding: 10px 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+
+  .menuBtn {
+    display: none;
+  }
+
+  .uniqueSec {
+    padding: 50px 0px;
+  }
+
+  .uniqueContent p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .nav-tabs {
+    justify-content: evenly;
+  }
+
+  .lunchSc {
+    padding: 50px 0px;
+  }
+
+  .menuPrice .menuName {
+    font-size: 14px;
+  }
+
+  .chefSection {
+    padding: 50px 0px;
+  }
+
+  .menuPrice2 {
+    justify-content: space-evenly;
+  }
+
+  .contactPart {
+    padding: 50px 0px;
+  }
+
+  .socialIcon ul {
+    justify-content: center !important;
+  }
+}
+
+/* Medium devices min 576.1px to 768px */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .navbar-nav {
+    background: #000;
+    border-radius: 10px;
+    max-width: 200px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block !important;
+    text-align: center;
+    padding: 10px 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+
+  .heroSec .carousel-caption .bookBtn a {
+    padding: 6px 20px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .heroSec .carousel-caption p {
+    font-size: 14px;
+    line-height: 33px;
+    margin: 0 0 20px 0;
+  }
+
+  .heroSec .carousel-caption h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+  }
+
+  .heroSec .carousel-caption h1 span {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .carousel-caption {
+    bottom: 1.75rem;
+  }
+
+  .heroSec .heroArrow {
+    display: none;
+  }
+
+  .menuPrice .menuName {
+    font-size: 16px;
+  }
+
+  .menuName small {
+    display: none;
+  }
+
+  .menuList p {
+    font-size: 12px;
+  }
+}
+
+/* Large devices min 768.1px to 992px */
+@media (min-width: 768.1px) and (max-width: 992px) {
+  .carousel-caption {
+    bottom: 1.75rem;
+  }
+
+  .heroSec .heroArrow {
+    display: none;
+  }
+
+  .heroSec .carousel-caption p {
+    font-size: 14px;
+    line-height: 33px;
+    margin: 0 0 20px 0;
+  }
+
+  .heroSec .carousel-caption h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 0 40px 0;
+  }
+
+  .heroSec .carousel-caption h1 span {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+/* Extra large devices min 992.1px to 1200px */
+/* Extra extra large devices min 1200.1px */

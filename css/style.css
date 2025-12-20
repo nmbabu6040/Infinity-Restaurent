@@ -60,6 +60,8 @@ span {
 }
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -67,6 +69,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Jost', sans-serif;
   overflow-x: hidden;
+  width: 100%;
 }
 /* menu start  */
 /* .menu {
